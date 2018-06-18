@@ -18,7 +18,7 @@
 ## Recommendations
 
 ### Staking
-  * At least 10000 CCB, anything less than that you are better off running a masternode
+  * At least 5000 CCB, anything less than that you are better off running a masternode
   * Dedicated machine for your wallet, as you want to keep it online as much as possible
   
 ### Masternode
