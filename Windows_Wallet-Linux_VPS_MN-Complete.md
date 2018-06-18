@@ -1,11 +1,11 @@
 # CCB Windows and Linux Wallet - Linux VPS Masternode Instructions
 
 ## Requirements:
-* A local Masternode Wallet with the required Masternode collateral (5000 IPS).
+* A local Masternode Wallet with the required Masternode collateral (5000 CCB).
 * A GNU/Linux VPS with a Static IP Address referred as __<your vps IP>__ in this document.
 
 * For this guide we are using Ubuntu 16.04 on the VPS, but any distro should do as the executables are statically linked. 
-* A 25GB SSD and 1000GB bandwidth will suffice (suggested vultr or digital ocean; use those referral links to support IPS: [vultr](https://www.vultr.com/?ref=7424168).
+* A 25GB SSD and 1000GB bandwidth will suffice (suggested vultr or digital ocean; use those referral links to support CCB: [vultr](https://www.vultr.com/?ref=7424168).
 * Select IPV6 and Private Networking. I will leave DDoS and Automatic backups to you. 
 * Leave SSH Keys and Startup Script blank.
 
@@ -21,7 +21,7 @@
 
 ### Syncing
 
-* Open the ips.conf file. It can be found in C:/Users/<Your User>/AppData/Roaming/CCB.
+* Open the ccb.conf file. It can be found in C:/Users/<Your User>/AppData/Roaming/CCB.
 * Copy the addnodes from [here](https://github.com/MotoAcidic/CCB_Guides/blob/master/Seeds) into this file, then save it.
 * Re-open your ccb-qt. It will now sync much more quickly.
 
@@ -36,7 +36,7 @@
 
 ### Exchange
 
-* Open your exchange, and transfer at least 5001 coins to the “Graviex” address. Be sure to account for exchange fees.
+* Open your exchange, and transfer at least 5001 coins to the “Crypto-Brdige” address. Be sure to account for exchange fees.
 * You should receive your coins almost instantly. Please wait for them to confirm before proceeding.
 
 ### Coin Control
@@ -65,13 +65,13 @@
 ```masternode genkey```
 
 * This gives you your <masternode priv key>. Copy it in your masternode configuration file after 22331 (keep a space between 22331 and the masternode priv key) and keep your masternode priv key secret.
-* Be sure the 5000IPS payment to MN1 have reached at least 15 confirmations before inputing the following command:
+* Be sure the 5000CCB payment to MN1 have reached at least 15 confirmations before inputing the following command:
   
 ```masternode outputs```
 
 * This gives you a <transaction hash> (long string of nonsense) and an <index> (0 or 1)
   Add this to your masternode configuration file which should now look like this:
-```MN1 <your vps IP>:22331 <masternode priv key> <transaction hash> <index>```
+```MN1 <your vps IP>:19551 <masternode priv key> <transaction hash> <index>```
   which might be something similar to the following line:
 ```MN1 111.222.111.222:19551 df1265465465432KSJBFNSKJ aLJKHVBSFDLJHGbcdeSFKJSFf654321abcdef321654abcdef321654 1```
 * Save and close your masternode configuration file.
