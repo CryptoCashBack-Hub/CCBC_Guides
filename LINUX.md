@@ -1,4 +1,4 @@
-# Linux VPS IPSUM Daemon Installation Guide
+# Linux VPS CryptoCashBack Daemon Installation Guide
 
 ## Connect to your Linux VPS over SSH
 
