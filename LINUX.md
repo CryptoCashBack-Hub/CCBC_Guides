@@ -17,11 +17,11 @@
 
   * From the terminal session, run the following command
   ```
-  wget https://github.com/ipsum-network/ips/releases/download/v3.1.0.0/ips-3.1.0-linux.tar.gz
+  wget https://github.com/CryptoCashBack-Hub/CCB/releases/download/v0.0.1/CryptoCashBack-Linux.tar.gz
   ```
   * From the terminal session, run the following command
   ```
-  tar -xvf ips-3.1.0-linux.tar.gz
+  tar -xvf CryptoCashBack-Linux.tar.gz
   ```
   
 ## Install IPSUM Linux Daemon Runtime Dependencies
@@ -42,8 +42,8 @@
 
 * From the terminal session, run the following commands
 ```
-mkdir -p ~/.ips
-nano ~/.ips/ips.conf
+mkdir -p ~/.cryptocashback
+nano ~/.cryptocashback/cryptocashback.conf
 ```
 
 * Now add the following lines to this file, replacing any < > field with your information
@@ -68,7 +68,7 @@ masternodeprivkey=<masternode private key>
 * Copy and paste the addnode lines into the bottom of this file
 * Save and Exit
 
-## Start the IPSUM Linux Daemon
+## Start the CCB Linux Daemon
 
 * From the terminal session, run the following commands
 ```
