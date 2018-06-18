@@ -50,7 +50,7 @@
 * Paste your MN1 address in the “Pay To” section. The label “MN1” should automatically be displayed.
 * Input 5000 into the “Amount” section.
 * Press send, and pay any transaction fees.
-* After 2 minutes, open Coin Control again. You should see a transaction of exactly 5000 IPS under MN1. Wait for it to receive 15 confirmations before the next step.
+* After 2 minutes, open Coin Control again. You should see a transaction of exactly 5000 CCB under MN1. Wait for it to receive 15 confirmations before the next step.
 
 ### Masternode Info
 
@@ -65,7 +65,7 @@
 ```masternode genkey```
 
 * This gives you your <masternode priv key>. Copy it in your masternode configuration file after 19551 (keep a space between 19551 and the masternode priv key) and keep your masternode priv key secret.
-* Be sure the 5000CCB payment to MN1 have reached at least 15 confirmations before inputing the following command:
+* Be sure the 5000 CCB payment to MN1 have reached at least 15 confirmations before inputing the following command:
   
 ```masternode outputs```
 
