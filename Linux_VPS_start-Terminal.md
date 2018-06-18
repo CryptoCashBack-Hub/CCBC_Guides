@@ -10,14 +10,14 @@
 
   * From the terminal session, run the following commands
   ```
-  ./ips-cli masternode start alias 0 <alias>
+  ./CryptoCashBack-cli masternode start alias 0 <alias>
   ```
 
 ### Checking your Linux VPS Masternode Status
 
   * From the terminal session, run the following commands
   ```
-  ./ips-cli masternode status
+  ./CryptoCashBack-cli masternode status
   ```
   * Your output should be similar to the following
 ```
