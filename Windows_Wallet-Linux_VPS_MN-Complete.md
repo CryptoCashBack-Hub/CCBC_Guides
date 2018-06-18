@@ -64,7 +64,7 @@
 
 ```masternode genkey```
 
-* This gives you your <masternode priv key>. Copy it in your masternode configuration file after 22331 (keep a space between 22331 and the masternode priv key) and keep your masternode priv key secret.
+* This gives you your <masternode priv key>. Copy it in your masternode configuration file after 19551 (keep a space between 19551 and the masternode priv key) and keep your masternode priv key secret.
 * Be sure the 5000CCB payment to MN1 have reached at least 15 confirmations before inputing the following command:
   
 ```masternode outputs```
