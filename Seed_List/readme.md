@@ -15,6 +15,7 @@
   ```
   press enter
   ```
+  ##### Now copy and paste the seed list above to your configuration file
   
   ## Now you need to stop the service and start it back up
   
@@ -37,4 +38,4 @@
    ```
    
    
-   Provided by: litofcas
+   ##### Provided by: litofcas
