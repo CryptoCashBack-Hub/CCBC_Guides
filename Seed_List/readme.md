@@ -15,7 +15,8 @@
   ```
   press enter
   ```
-  ##### Now copy and paste the seed list above to your configuration file
+ * Get the latest node seeds from and put them in our configuration file [here](https://github.com/CryptoCashBack-Hub/CCB_Guides/blob/master/Seed_List/seeds)
+ 
   
   ## Now you need to stop the service and start it back up
   
