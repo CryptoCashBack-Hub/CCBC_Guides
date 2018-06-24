@@ -6,7 +6,7 @@
 ### Staking
   * The CCB coins you intent to stake must have 101 confirmations
   * At least 25GB of free space
-  * Synchronized IPSUM wallet
+  * Synchronized CCB wallet
 
 ### Masternode
   * Exactly 5000.00 CCB as collateral
