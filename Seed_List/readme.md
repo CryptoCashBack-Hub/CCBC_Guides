@@ -9,10 +9,13 @@
   ## Now save you configuration file
   
   ```
-  press crlt+x
+  press crlt+o *Saves file*
   ```
   ```
-  press Y
+  press crlt+x *Exits*
+  ```
+  ```
+  press Y *If promted to answer Y/N*
   ```
   ```
   press enter
