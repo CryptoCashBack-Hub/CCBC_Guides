@@ -62,6 +62,9 @@ masternode=1
 port=5520
 externalip=<externalip>:5520
 masternodeprivkey=<masternode private key>
+addnode=23.94.183.5
+addnode=107.172.249.143
+addnode=172.245.6.154
 ```
 
 * Get the latest node seeds 
