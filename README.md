@@ -1,24 +1,23 @@
-# CCB Staking and Masternode
-*These guides are designed to assist you in installing and configuring an IPSUM staking wallet or IPSUM masternode.* 
+# CCBC Staking and Masternode
+*These guides are designed to assist you in installing and configuring an CCBC staking wallet or CCBC masternode.* 
 
 ## Requirements
 
 ### Staking
-  * The CCB coins you intent to stake must have 101 confirmations
+  * The CCBC coins you intent to stake must have 101 confirmations
   * At least 25GB of free space
-  * Synchronized CCB wallet
+  * Synchronized CCBC wallet
 
 ### Masternode
-  * Exactly 5000.00 CCB as collateral
-  * An internet addressable IP address
-  * Port 19551 forwarded
+  * Exactly 25000.00 CCBC as collateral
+  * An internet addressable IP addres
   * At least 25GB of free space
-  * Synchronized CCB wallet
+  * Synchronized CCBC wallet
   
 ## Recommendations
 
 ### Staking
-  * At least 5000 CCB, anything less than that you are better off running a masternode
+  * At least 25000 CCBC, anything less than that you are better off running a masternode
   * Dedicated machine for your wallet, as you want to keep it online as much as possible
   
 ### Masternode
