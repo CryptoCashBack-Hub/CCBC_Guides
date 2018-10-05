@@ -17,7 +17,7 @@
 
   * From the terminal session, run the following command
   ```
-  wget https://github.com/CryptoCashBack-Hub/CCBC/releases/download/v1.0.0.2/CCBC-linux.tar.gz
+  wget https://github.com/CryptoCashBack-Hub/CCBC/releases/download/v1.0.0.3/CCBC-linux.tar.gz
   ```
   * From the terminal session, run the following command
   ```
@@ -65,6 +65,7 @@ masternodeprivkey=<masternode private key>
 addnode=107.172.249.143
 addnode=172.245.6.154
 addnode=107.174.66.241
+addnode=seeder.ccbcoin.club
 ```
 
 * Get the latest node seeds from 
